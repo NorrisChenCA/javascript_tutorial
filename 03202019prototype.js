@@ -1,6 +1,6 @@
 let Car = function(color) {
 	this.color = color;
-	car.prototype.getColor = function() {
+	Car.prototype.getColor = function() {
 		return this.color;
 	}
 }

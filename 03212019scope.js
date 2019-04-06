@@ -8,4 +8,4 @@ function a() {
 
 a();
 
-console.log('from after function a() excution:' + global);  //what is console log here?k
+console.log('from after function a() excution:' + global);  //what is console log here?

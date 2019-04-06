@@ -57,7 +57,7 @@ var Pizza2 = function(){
 		return crust;
 	}
 	
-	var getToppings() = function() {
+	var getToppings = function() {
 		return topping;
 	};
 	
@@ -70,7 +70,7 @@ var Pizza2 = function(){
 var pizzaC = new Pizza2();
 console.dir(pizzaC); // can find hasBacon, But can't find crust because it is private variant.
 console.log(pizzaC.getHasBacon());
-console.log(pizzaC.getCrust());
+//console.log(pizzaC.getCrust());
 
-console.log(pizzaC.getTopping());
+//console.log(pizzaC.getTopping());
 

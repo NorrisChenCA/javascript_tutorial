@@ -9,7 +9,7 @@ let camry = {
 	drive(){
 		//here is calling the super class function
 		return `${super.driver()} camry`;
-	}
+	},
 	wifi() {
 		return 'wifi single';
 	}
