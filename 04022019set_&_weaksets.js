@@ -9,4 +9,5 @@ for(let val of mySet) {
 
 console.log(mySet);
 
+//set can only add primitive value, weak sat only add not primitive value
 const ws = new WeakSet([{a:1}, {b:2}]);
